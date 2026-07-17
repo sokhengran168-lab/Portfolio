@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Run Sokheng — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/selfie_segmentation.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-mark"><img src="assets/photo.jpg" alt=""></span>
+      Run Sokheng
+    </div>
+     <div class="navlinks" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#work">Experience</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Open to internship opportunities &amp; and looking for career growth</span>
+        <h1 class="title">Building toward a career in <span class="accent"> Web Development</span>one project at a time.</h1>
+        <p class="role"> Hi I'm <strong>Run Sokheng</strong> a 4th-year IT Engineering student at RUPP passionate about backend development, I’m developing the technical skills needed to grow as a future web developer.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="#projects">See my projects</a>
+        </div>
+      </div>
+      <div class="badge-wrap">
+        <div class="portrait">
+        <img src="assets/mez_2.png" alt="Run Sokheng">
+       </div>
+     </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">About</span>
+      <h2 class="section-title">Curious, hands-on, and still counting the ways to build something.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a 4th-year Information Technology Engineering student at RUPP passionate about Web Development and creating practical digital solutions. 
+          I have experience building web applications with Laravel and React, developing responsive user interfaces, and working with databases.
+           I enjoy turning ideas into real projects and continuously improving my skills through hands-on learning and professional training.</p>
+      </div>
+      <div class="fact-list reveal">
+        <div class="fact"><span>Based in</span><span>Phnom Penh, Cambodia</span></div>
+        <div class="fact"><span>Studying</span><span>IT Engineering, RUPP</span></div>
+        <div class="fact"><span>Aiming for</span><span>Web Development</span></div>
+        <div class="fact"><span>Languages</span><span>Khmer (native), English</span></div>
+        <div class="fact"><span>Email</span><span>sokkhe88k@gmail.com</span></div>
+        <div class="fact"><span>Phone</span><span>096 510 9851</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Journey</span>
+      <h2 class="section-title"> My Education &amp; and training that have supported my growth as a web developer..</h2>
+      <p class="section-sub">Each step has helped me build my skills, from academic milestones to learning backend frameworks and gaining hands-on experience with full-stack development.</p>
+    </div>
+    <div class="path reveal">
+      <div class="node">
+        <span class="when">Feb 2024 — Present</span>
+        <h3>Bachelor of Information Technology Engineering</h3>
+        <span class="org">Royal University of Phnom Penh</span>
+        <p>Coursework and lab projects spanning robotics, networking, AI, and full-stack development.</p>
+      </div>
+      <div class="node">
+        <span class="when">Jul 2025 — Oct 2025</span>
+        <h3>Backend Web Development — PHP, Laravel, Database</h3>
+        <span class="org">ETEC Center</span>
+        <p> Earned a 100% scholarship from ETEC Center for backend web development.</p>
+      </div>
+      <div class="node">
+        <span class="when">Nov 2024 — Feb 2025</span>
+        <h3>Web Development Fundamentals</h3>
+        <span class="org">Institute of Science and Technology Advanced Development (ISTAD)</span>
+        <p> Earned a 50% scholarship from ISTAD for Foundations of Web Development, focusing on modern front-end (React,js), UXUI, java with DB PostgreSQL and Git Control.</p>
+      </div>
+      <div class="node">
+        <span class="when">2020 — 2023</span>
+        <h3>BAC II, National Certificate</h3>
+        <span class="org">HunSen Angsnoul High School</span>
+        <p>Completed upper secondary education and the national baccalaureate exam.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Skills</span>
+      <h2 class="section-title">What I build with.</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <h4>Front-end</h4>
+        <div class="tag-row">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span>
+          <span class="tag">Tailwind CSS</span><span class="tag">UX/UI Design</span><span class="tag">React.js</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Back-end &amp; Database</h4>
+        <div class="tag-row">
+          <span class="tag">PHP</span><span class="tag">Laravel</span>
+          <span class="tag lvl2">MySQL</span><span class="tag lvl2">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Languages in progress</h4>
+        <div class="tag-row">
+          <span class="tag lvl2">Java — beginner</span><span class="tag lvl2">Python — beginner</span><span class="tag">C++</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Tools &amp; practices</h4>
+        <div class="tag-row">
+          <span class="tag">Git</span><span class="tag">Project Management</span><span class="tag">API Integration</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Working style</h4>
+        <div class="tag-row">
+          <span class="tag">Critical thinking</span><span class="tag">Communication</span><span class="tag">Time management</span><span class="tag">Problem solving</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Languages spoken</h4>
+        <div class="tag-row">
+          <span class="tag">Khmer </span><span class="tag">English </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title">What Can I Do ?</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <h4>Website Development</h4>
+        <div class="tag-row">
+          <p>Crafting responsive, scalable,
+           and visually appealing websites tailored to business needs.</p>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Building Systems</h4>
+        <div class="tag-row">
+          <p>Design the systems,</p>
+          <p>Develop backend logic.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Recent Projects</span>
+      <p class="section-sub">Here are my github repositories for some of the projects I've worked on during my training.</p>
+      <a class="github-link" href="https://github.com/SokhengRan987?tab=repositories" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+    </div>
+    <div class="proj-grid reveal">
+      <div class="proj-card">
+        <span class="ptag">ETEC Center (Group-Project)</span>
+        <h3>Online Food Ordering System</h3>
+        <p>A digital platform for ordering food from a restaurant online — built for both admin and customer, and designed to be quick and easy to use.</p>
+        <div class="stack"><span>HTML</span><span>CSS</span><span>JS</span><span>Laravel</span><span>MySQL</span></div>
+      </div>
+      <div class="proj-card">
+        <span class="ptag">ISTAD (Group-Project)</span>
+        <h3>REANDATA</h3>
+        <p>A friendly platform for managing, visualizing, and analyzing data.</p>
+        <div class="stack"><span>React.js</span><span>React Router</span><span>Tailwind CSS</span><span>API integration</span></div>
+      </div>
+      <div class="proj-card">
+        <span class="ptag">RUPP</span>
+        <h3>Hotel-Reservation-System </h3>
+        <p>Designed and developed a hotel reservation system to simplify room booking, customer management, and reservation tracking, improving the efficiency of hotel operations.</p>
+        <div class="stack"><span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span><span>Laravel</span><span>PostgreSQL</span></div>
+      </div>
+      <div class="proj-card">
+        <span class="ptag">RUPP—E-commerce</span>
+        <h3>Apsara Angkor</h3>
+        <p>An e-commerce website built to sell Khmer clothing online.</p>
+        <div class="stack"><span>Web Development</span></div>
+      </div>
+      <div class="proj-card">
+        <span class="ptag">RUPP—E-commerce</span>
+        <h3>Apsara Angkor</h3>
+        <p>An e-commerce website built to sell Khmer clothing online.</p>
+        <div class="stack"><span>Web Development</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Experience</span>
+      <h2 class="section-title">Where I've worked.</h2>
+    </div>
+    <div class="reveal">
+      <div class="work-item">
+        <span class="when">Nov 2025 — Present</span>
+        <div>
+          <h3>Authentic Advanced Academy</h3>
+          <span class="role-sub">Robotics Coach &amp; part time</span>
+          <p>Provided coaching and instruction in robotics, guiding students in designing, building, and programming robots while fostering problem-solving, teamwork, and creativity.</p>
+        </div>
+      </div>
+      <div class="work-item">
+        <span class="when">Apr 2024 — Sept 2024</span>
+        <div>
+          <h3>Kami Sushi &amp; BBQ</h3>
+          <span class="role-sub">Food service &amp; barista · part time</span>
+          <p>Served customers, took orders, and prepared drinks while working with international guests — sharpening English communication and teamwork along the way.</p>
+        </div>
+      </div>
+      <div class="work-item">
+        <span class="when"> 2023 — 2024</span>
+        <div>
+          <h3>Como Apparel Factory</h3>
+          <span class="role-sub">Factory assistant · full time</span>
+          <p>Supported daily production, handled basic machinery, and inspected quality while following safety procedures — early lessons in teamwork and hands-on precision.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Certificates</span>
+      <h2 class="section-title">Training, certified.</h2>
+      <p class="section-sub">Here are some of My Achievement Certificates  I've earned </p>
+    </div>
+    <div class="cert-grid reveal">
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/certificates/Etect.png" alt="ETEC Center backend development certificate">
+        </div>
+        <div class="cert-body">
+          <h4>Backend Web Development — PHP, Laravel, Database</h4>
+          <span>ETEC Center · Jul – Oct 2025</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/certificates/istad.png" alt="ISTAD web development fundamentals certificate">
+        </div>
+        <div class="cert-body">
+          <h4>Web Development Fundamentals</h4>
+          <span>ISTAD · Nov 2024 – Feb 2025</span>
+        </div>
+      </div>
+       <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/certificates/oopjava.png" alt="">
+        </div>
+        <div class="cert-body">
+          <h4>This certificate demonstrates proficiency in oop with Java</h4>
+        </div>
+      </div>
+       <div class="cert-card">
+        <div class="cert-thumb">
+          <img src="assets/certificates/nicc.png" alt="">
+        </div>
+        <div class="cert-body">
+          <h4>Certificate join in Data science explore at nicc</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resume">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Resume</span>
+      <h2 class="section-title">Full CV, one click away.</h2>
+    </div>
+    <div class="resume-card reveal">
+      <div class="r-info">
+        <div class="resume-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8B5E44" stroke-width="1.6">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <path d="M14 2v6h6"/>
+            <line x1="8" y1="13" x2="16" y2="13"/>
+            <line x1="8" y1="17" x2="16" y2="17"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Run_Sokheng_Resume.pdf</h3>
+          <p>Full education, training, and work history in one document.</p>
+        </div>
+      </div>
+      <div class="hero-cta" style="margin-top:0;">
+        <a class="btn btn-primary" href="assets/Run_Sokheng_Resume.pdf" download>Download resume</a>
+        <a class="btn btn-ghost" href="assets/Run_Sokheng_Resume.pdf" target="_blank" rel="noopener">View in browser</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <h2>Let's build something together.</h2>
+      <p>I'm looking for web developer, backend developer, or internship opportunities where I can grow my skills and contribute to meaningful projects. Feel free to get in touch.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:sokkhe88k@gmail.com">sokkhe88k@gmail.com</a>
+        <a class="btn btn-ghost" href="tel:0965109851">096 510 9851</a>
+        <a class="btn btn-ghost" href="https://t.me/@Thisissokheng" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21.05 2.93 2.68 10.28c-1.25.51-1.24 1.22-.23 1.53l4.7 1.47 1.82 5.6c.22.6.38.84.78.84.31 0 .45-.14.63-.31l1.75-1.7 4.32 3.19c.8.44 1.37.21 1.57-.74l2.84-13.4c.29-1.16-.44-1.68-1.81-1.83Zm-11.9 10.4-1.34 4.13-.66-4.86 9.02-8.14c.4-.35-.09-.53-.62-.19L8.2 12.06l-.05.27Z"/></svg>
+          Telegram
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<footer>
+  <div class="wrap">Run Sokheng · Ovloak, Kambol, Phnom Penh · Cambodia</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
